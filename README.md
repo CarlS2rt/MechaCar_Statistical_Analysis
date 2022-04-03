@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict MPG
 
-![](C:\Users\carla\OneDrive\Documents\GitHub\MechaCar_Statistical_Analysis\image-20220403123528447.png)
+![](https://raw.githubusercontent.com/CarlS2rt/MechaCar_Statistical_Analysis/main/image-20220403123528447.png)
 
 ### Non-random Variance Coefficients
 
@@ -20,29 +20,29 @@ The linear model effectively predicts the miles per gallon of MechaCar prototype
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (psi). The summary data for suspension coil performance shows that the current manufacturing data does meet design specifications. 
 
-<img src="C:\Users\carla\OneDrive\Documents\GitHub\MechaCar_Statistical_Analysis\image-20220403134654421.png" style="zoom:200%;" />
+<img src="https://raw.githubusercontent.com/CarlS2rt/MechaCar_Statistical_Analysis/main/image-20220403134654421.png" style="zoom:200%;" />
 
 Additionally, the manufacturing data shows that Lots 1 and 2 are meeting the design specifications, but Lot 3 is not meeting them. The variance in Lot 3 is 170.29 whereas the variance in Lots 1 and 2 are 0.98 and 7.47 respectively.  
 
-<img src="C:\Users\carla\OneDrive\Documents\GitHub\MechaCar_Statistical_Analysis\image-20220403135114952.png" style="zoom:150%;" />
+<img src="https://raw.githubusercontent.com/CarlS2rt/MechaCar_Statistical_Analysis/main/image-20220403135114952.png" style="zoom:150%;" />
 
 ## T-Tests on Suspension Coils
 
 Using T-Tests, we can determine if the mean of the total and lot datasets is statistically different from the population mean of 1500. The PSI across all manufacturing lots is not statistically different from the population mean because the p-value of 0.06028 is not significant, so the null hypothesis cannot be rejected. 
 
-<img src="C:\Users\carla\OneDrive\Documents\GitHub\MechaCar_Statistical_Analysis\image-20220403141844146.png" style="zoom:150%;" />
+<img src="https://raw.githubusercontent.com/CarlS2rt/MechaCar_Statistical_Analysis/main/image-20220403141844146.png" style="zoom:150%;" />
 
 The PSI of manufacturing Lot 1 is not statistically different from the population mean because the p-value of 1 is not significant, so the null hypothesis cannot be rejected. 
 
-<img src="C:\Users\carla\OneDrive\Documents\GitHub\MechaCar_Statistical_Analysis\image-20220403142100833.png" style="zoom:150%;" />
+<img src="https://raw.githubusercontent.com/CarlS2rt/MechaCar_Statistical_Analysis/main/image-20220403142100833.png" style="zoom:150%;" />
 
 The PSI of manufacturing Lot 2 is not statistically different from the population mean because the p-value of 0.6072 is not significant, so the null hypothesis cannot be rejected. 
 
-<img src="C:\Users\carla\OneDrive\Documents\GitHub\MechaCar_Statistical_Analysis\image-20220403142210123.png" style="zoom:150%;" />
+<img src="https://raw.githubusercontent.com/CarlS2rt/MechaCar_Statistical_Analysis/main/image-20220403142210123.png" style="zoom:150%;" />
 
 The PSI of manufacturing Lot 3 is statistically different from the population mean because the p-value of 0.04168 is below our significance level of 0.05, so there is sufficient evidence to reject the null hypothesis. 
 
-<img src="C:\Users\carla\OneDrive\Documents\GitHub\MechaCar_Statistical_Analysis\image-20220403142504697.png" style="zoom:150%;" />
+<img src="https://raw.githubusercontent.com/CarlS2rt/MechaCar_Statistical_Analysis/main/image-20220403142504697.png" style="zoom:150%;" />
 
 ## Study Design: MechaCar vs Competition
 
